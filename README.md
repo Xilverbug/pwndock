@@ -15,7 +15,7 @@ capstone | lightweight multi-platform, multi-architecture disassembly framework.
 angr | platform-agnostic binary analysis framework. | [Link](https://github.com/angr/angr)
 pebble | 
 r2pipe | 
-apscheduler | Advanced Python Scheduler | [Link](https://apscheduler.readthedocs.io/en/stable/
+apscheduler | Advanced Python Scheduler | [Link](https://apscheduler.readthedocs.io/en/stable/)
 pycrypto | ollection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption algorithms (AES, DES, RSA, ElGamal, etc.). | [Link](https://pypi.org/project/pycrypto/)
 binwalk | a fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images. | [Link](https://github.com/ReFirmLabs/binwalk)
 nmap | Network exploration tool and security / port scanner | man page
