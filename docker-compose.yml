@@ -1,0 +1,19 @@
+version: '2'
+services:
+   pwntools:
+      container_name: pwntools
+      build: .
+      cap_add:
+        - SYS_MODULE
+        - SYS_PTRACE
+      security_opt:
+        - seccomp:unconfined
+          #ports:
+          #- 2200:22
+          #- 8000:80
+      volumes:
+         - ./Data/:/Share/
+
+      working_dir: "/Share"
+      stdin_open: true
+      tty: true
